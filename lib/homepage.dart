@@ -1,6 +1,7 @@
 import 'dart:io';
 
 
+import 'package:apple_product_name/apple_product_name.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 
@@ -74,7 +75,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               children: [
                 item('Device Model', info.model),
-                item('Device Name', info.name),
+                item('Device Name', info.utsname.productName),
                 item('System Name', info.systemName),
                 item('System Version', info.systemVersion),
                 item(
