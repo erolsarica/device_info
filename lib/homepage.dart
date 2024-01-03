@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
               children: [
                 item('Android Model', info.model),
                 item('Android Brand', info.brand),
-                item('Android Device', info.device),
+                item('Android Version', info.version.release),
                 item('Android Hardware', info.hardware),
                 item('Android Host', info.host),
                 item('Android ID', info.id),
