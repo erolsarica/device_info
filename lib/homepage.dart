@@ -43,13 +43,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               children: [
                 item('Android Model', info.model),
-                item('Android Brand', info.brand),
                 item('Android Version', info.version.release),
-                item('Android Hardware', info.hardware),
-                item('Android Host', info.host),
-                item('Android ID', info.id),
-                item('Android Is Physical', info.isPhysicalDevice.toString()),
-                item('Android SDK Int', info.version.sdkInt.toString()),
               ],
             ),
           );
