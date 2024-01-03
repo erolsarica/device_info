@@ -69,8 +69,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               children: [
                 item('Device Model', info.model),
-                item('Device Name', info.utsname.productName),
-                item('System Name', info.systemName),
+                item('Device Name', info.utsname.productName),                
                 item('System Version', info.systemVersion),
                 item(
                   'Device Is Physical',
