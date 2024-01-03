@@ -68,7 +68,6 @@ class HomePage extends StatelessWidget {
             padding: const EdgeInsets.all(20),
             child: Column(
               children: [
-                item('Device Model', info.model),
                 item('Device Name', info.utsname.productName),                
                 item('System Version', info.systemVersion),
                 item(
