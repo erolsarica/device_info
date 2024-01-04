@@ -1,6 +1,5 @@
 import 'dart:io';
 
-
 import 'package:apple_product_name/apple_product_name.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
